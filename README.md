@@ -1,6 +1,6 @@
 # 🔌 230V AC to 12V DC Rectifier PCB (KiCad)
 
-This repository contains my **first-ever PCB design**, created using **KiCad** 🎉  
+This repository contains my **first-ever PCB design**(done way back in second semester), created using **KiCad** 🎉  
 The project is a **230V AC to 12V DC rectifier circuit** with a built-in filtering stage, designed to convert mains AC into a smooth DC output suitable for low-voltage electronics.
 
 > ⚠️ **Warning:** This project involves **230V AC mains voltage**. Handle with extreme care. Do not build or test this circuit unless you are familiar with proper high-voltage safety practices.
