@@ -1,0 +1,20 @@
+# KiCad auto-generated files
+*.bak
+*.tmp
+*.bck
+*.kicad_prl
+*.kicad_wks
+Power Supply-backups/*.zip
+# Cache & backup folders
+*-cache/
+fp-info-cache
+
+# Gerber outputs (optional – ignore if regenerated)
+gerbers/
+fabrication/
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
