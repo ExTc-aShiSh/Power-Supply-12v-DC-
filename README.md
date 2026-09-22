@@ -1,5 +1,7 @@
 # 🔌 230V AC to 12V DC Rectifier PCB (KiCad)
 
+![3D View of Power Supply](Photos/3D%20view%20power%20supply.png)
+
 This repository contains my **first-ever PCB design**(done way back in second semester), created using **KiCad** 🎉  
 The project is a **230V AC to 12V DC rectifier circuit** with a built-in filtering stage, designed to convert mains AC into a smooth DC output suitable for low-voltage electronics.
 
@@ -15,20 +17,14 @@ The circuit performs the following functions:
 3. Filters the DC output for smoother operation
 
 ### 🔹 Circuit Highlights
-- **Step-down Transformer**  
-  Converts **230V AC → 12V AC**
 
-- **4× 1N4001 Diodes**  
-  Configured as a **full-bridge rectifier**
-
-- **2× Capacitors**  
-  Used for **smoothing / filtering** the rectified DC
-
-- **1× Resistor**  
-  Limits current for the indicator LED
-
-- **1× LED**  
-  Indicates DC output status 💡
+| Component | Quantity / Specification | Function / Description |
+| :--- | :--- | :--- |
+| **Step-down Transformer** | 230V AC → 12V AC | Converts mains AC to 12V AC |
+| **Diodes** | 4× 1N4001 | Configured as a full-bridge rectifier |
+| **Capacitors** | 2× Filtering Capacitors | Smooths and filters rectified DC |
+| **Resistor** | 1× Current Limiter | Limits current for indicator LED |
+| **LED** | 1× Output Indicator 💡 | Indicates DC output status |
 
 ---
 
